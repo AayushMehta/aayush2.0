@@ -1,0 +1,57 @@
+/* CSS RESETS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-size: 62.5%; */
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: cornsilk;
+  font-family: "Montserrat-Regular";
+}
+
+.container {
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  outline: 1px solid red;
+  width: 70%;
+  padding: 20px;
+}
+/* CSS RESETS */
+
+.header {
+  display: flex;
+  gap: 2rem;
+  justify-content: space-between;
+  padding-bottom: 40px;
+}
+
+.fab fa-linkedin,
+.fab fa-github,
+.fa-solid fa-envelope {
+  /* height: 50px; */
+}
+.logo-a {
+  width: 50px;
+  height: 5 0px;
+}
+
+.main {
+  display: flex;
+  gap: 2rem;
+  justify-content: space-between;
+}
+.welcome-img {
+  width: 40%;
+  height: 30%;
+  padding-bottom: 1rem;
+}
+
+.right {
+  font-size: 1.5rem;
+}
