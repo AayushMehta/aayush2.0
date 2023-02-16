@@ -21,6 +21,10 @@ body {
   outline: 1px solid red;
   width: 70%;
   padding: 20px;
+  max-height: 791px;
+  height: 100vh;
+  justify-content: center;
+  /* flex-basis: 30.9017%; */
 }
 /* CSS RESETS */
 
@@ -38,12 +42,12 @@ body {
 }
 .logo-a {
   width: 50px;
-  height: 5 0px;
+  height: 50px;
 }
 
 .main {
   display: flex;
-  gap: 2rem;
+  gap: 10rem;
   justify-content: space-between;
 }
 .welcome-img {
@@ -51,7 +55,11 @@ body {
   height: 30%;
   padding-bottom: 1rem;
 }
-
+.left {
+  flex-wrap: wrap;
+  padding-left: 5%;
+}
 .right {
   font-size: 1.5rem;
+  padding-right: 10%;
 }
