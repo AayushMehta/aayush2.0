@@ -69,9 +69,11 @@ body {
 .main {
   display: flex;
   gap: 10rem;
-  /* align-items: center; */
-  min-height: calc(100% - 102px);
-  height: calc(100% - 102px);
+  align-items: center;
+  /* min-height: calc(100% - 102px); */
+  /* height: calc(100% - 102px); */
+
+  height: calc(100vh - 75%);
 
   /* justify-content: space-between; */
 }
