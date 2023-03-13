@@ -842,7 +842,7 @@ main {
 }
 
 .timeline-list h5 {
-  color: white;
+  color: var(--white-1);
 }
 
 .timeline-list span {
@@ -1005,12 +1005,12 @@ main {
 .project-cover :hover {
   /* transition: 0.15s ease-in-out; */
   /* animation: scaleUp 0.5s ease forwards; */
-  color: #09c7d5;
+  color: var(--orange-yellow-crayola);
 }
 
 .project-cover h4 {
   margin-top: 1rem;
-  color: white;
+  color: var(--white-1);
   text-align: center;
   width: 166px;
   animation: scaleUp 0.25s ease forwards;
