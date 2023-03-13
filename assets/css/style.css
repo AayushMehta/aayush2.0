@@ -1347,6 +1347,16 @@ textarea.form-input::-webkit-resizer {
 \*-----------------------------------*/
 
 /**
+/* responsive larger than 200px screen
+*/
+
+@media (min-width: 200px) {
+  .filter-select-box {
+    display: none;
+  }
+}
+
+/**
  * responsive larger than 450px screen
  */
 
@@ -1362,6 +1372,10 @@ textarea.form-input::-webkit-resizer {
   /**
    * #PORTFOLIO, BLOG 
    */
+
+  .filter-select-box {
+    display: none;
+  }
 
   .project-img,
   .blog-banner-box {
@@ -1649,6 +1663,10 @@ textarea.form-input::-webkit-resizer {
    * #PORTFOLIO, BLOG
    */
 
+  .filter-select-box {
+    display: none;
+  }
+
   .project-img,
   .blog-banner-box {
     border-radius: 16px;
@@ -1895,6 +1913,10 @@ textarea.form-input::-webkit-resizer {
    * PORTFOLIO
    */
 
+  .filter-select-box {
+    display: none;
+  }
+
   .project-list {
     grid-template-columns: repeat(3, 1fr);
   }
@@ -2043,5 +2065,9 @@ textarea.form-input::-webkit-resizer {
 
   .timeline-text {
     max-width: 700px;
+  }
+
+  .filter-select-box {
+    display: none;
   }
 }
