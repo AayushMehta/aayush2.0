@@ -513,7 +513,7 @@ main {
 
 .about-text {
   color: var(--light-gray);
-  font-size: var(--fs-6);
+  font-size: var(--fs-7);
   font-weight: var(--fw-300);
   line-height: 1.6;
 }
@@ -841,6 +841,10 @@ main {
   margin-bottom: 7px;
 }
 
+.timeline-list h5 {
+  color: white;
+}
+
 .timeline-list span {
   color: var(--vegas-gold);
   font-weight: var(--fw-400);
@@ -984,11 +988,36 @@ main {
   --eerie-black-2: hsl(240, 2%, 20%);
 }
 
-.project-list {
+/* .project-list {
   display: grid;
   grid-template-columns: 1fr;
   gap: 30px;
   margin-bottom: 10px;
+} */
+
+.project-list {
+  display: flex;
+  gap: 3rem;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.project-cover :hover {
+  /* transition: 0.15s ease-in-out; */
+  /* animation: scaleUp 0.5s ease forwards; */
+  color: #09c7d5;
+}
+
+.project-cover h4 {
+  margin-top: 1rem;
+  color: white;
+  text-align: center;
+  width: 166px;
+  animation: scaleUp 0.25s ease forwards;
+}
+
+.project-cover img {
+  border-radius: 10px;
 }
 
 .project-item {
