@@ -790,6 +790,10 @@ main {
   color: var(--orange-yellow-crayola);
 }
 
+.project-cover img {
+  border-radius: 0.3rem;
+}
+
 .project-cover :hover {
   color: var(--orange-yellow-crayola);
 }
