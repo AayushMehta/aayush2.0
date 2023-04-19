@@ -438,6 +438,7 @@ main {
 .contact-info :is(.contact-link, time, address) {
   color: var(--white-2);
   font-size: var(--fs-7);
+  transition: 0.2s ease-out;
 }
 
 .contact-info address {
@@ -455,11 +456,13 @@ main {
 
 .social-item .social-link {
   color: var(--light-gray-70);
-  font-size: 18px;
+  font-size: 1.3rem;
+  transition: 0.25s ease-out;
 }
 
 .social-item .social-link:hover {
   color: var(--light-gray);
+  transform: scale(1.5);
 }
 
 /*-----------------------------------*\
@@ -786,16 +789,23 @@ main {
   justify-content: space-evenly;
 }
 
+/* .project-cover h4 {
+  transition: transform 0.2s ease-in-out;
+} */
+
+/* .project-cover :hover {
+  transform: scale(0.9);
+} */
+
 .project-list :hover.project-cover h4 {
   color: var(--orange-yellow-crayola);
+  /* transition: var(--transition-1); */
+  /* transform: scale(0.9); */
 }
 
 .project-cover img {
   border-radius: 0.3rem;
-}
-
-.project-cover :hover {
-  color: var(--orange-yellow-crayola);
+  /* transform: scale(0.9); */
 }
 
 .project-cover h4 {
@@ -803,7 +813,8 @@ main {
   color: var(--white-1);
   text-align: center;
   width: 166px;
-  animation: scaleUp 0.25s ease forwards;
+  /* animation: scaleUp 0.25s ease forwards; */
+  transition: 0.2s ease-out;
 }
 
 .project-item {
@@ -1161,6 +1172,10 @@ main {
   .contact-info {
     max-width: calc(100% - 64px);
     width: calc(100% - 64px);
+  }
+
+  .contact-info a:last-child:hover {
+    color: var(--orange-yellow-crayola);
   }
 
   /**
